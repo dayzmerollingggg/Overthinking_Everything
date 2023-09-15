@@ -1,5 +1,5 @@
 
-.header{
+.navbar{
     display: flex;
     flex-wrap: inherit;
     align-items: center;
@@ -21,6 +21,10 @@ img{
     
 }
 
+.img-cont{
+    text-align: center;
+}
+
 .fs-5.header{
     padding-top: 40px;
 }
@@ -31,3 +35,10 @@ img{
     margin-left: auto;
     margin-right: auto;
 }
+
+.description {
+    text-align: center;
+    font-style: italic;
+    color: #999999; /* Light grey color */
+    font-size: small;
+  }

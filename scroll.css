@@ -73,7 +73,7 @@ html {
 }
   /** enlarge the sections for this demo, so that we have a long scrollable page **/
   section {
-    padding-bottom: 20rem;
+    padding-bottom: 3rem;
   }
 
   @media (max-width: 820px) {
