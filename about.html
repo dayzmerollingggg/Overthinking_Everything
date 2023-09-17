@@ -8,24 +8,30 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="scroll.css">
+    <script src="script.js"></script>
 </head>
 <header>
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark ps-3" >
-        <div class="container-fluid" align-items="right"> 
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link " href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="full_library.html">Full Library</a>
-            </li>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark ps-3" >
+    <button class="hamburger-button bg-dark">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+  </button>
+      <div class="navbarheader container-fluid" align-items="right"> 
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link " href="index.html">Home</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link active" href="about.html">About</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="full_library.html">Full Library</a>
+          </li>
 
-          </ul>
-        </div>
-      </nav>
+        </ul>
+      </div>
+    </nav>
 </header>
 <body >
     <div class="pb-5 bg-dark text-white text-center">
@@ -36,16 +42,22 @@
     <section id="about" class="py-5">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 ">
+                <div class="col-md-6 ">
                     <img src="images/image.png" alt="My Photo" class="img-fluid rounded-circle">
                 </div>
-                <div class="col-lg-6">
+                <div class="col-md-6 aboutDesc">
                     <h2 class="display-4">About The Project</h2>
-                    <p class="pt-3">This project is mainly to stop my head from overflowing with new ideas and focus on my current ones by putting it into words and pictures. However, this also encourages me to think outside the box and from all different angles. I enjoy creating and art so this project was a great combination of both.</p>
-                    <a href="https://github.com/dayzmerollingggg/Overthinking_Everything"  style="text-decoration: none; color: rgb(44, 46, 47);">
+                    <p class="pt-3 ">This project is mainly to stop my head from overflowing with new ideas and focus on my current ones by putting it into words and pictures. However, this also encourages me to think outside the box and from all different angles. I enjoy creating and art so this project was a great combination of both.</p>
+                    <div style="display: inline-flex;">
+                      <a href="https://github.com/dayzmerollingggg/Overthinking_Everything"  style="text-decoration: none; color: rgb(44, 46, 47);">
                         <img src="images/github-mark.png" alt="GitHub Logo" width="100px" height="100px">
-                        Project's Github Repository
+                        <div style="display: flex; flex-wrap: wrap;">
+                          Project's Github Repository
+                        </div>
+
                     </a>
+                    </div>
+
                 </div>
 
             </div>

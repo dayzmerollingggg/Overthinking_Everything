@@ -6,6 +6,38 @@
     justify-content: space-between;
 }
 
+.hamburger-button {
+    display: none; /* Initially hidden for larger screens */
+    cursor: pointer;
+}
+
+.bar {
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    margin: 6px 0;
+}
+
+@media (max-width: 576px) {
+    .navbarheader {
+        display: none !important;
+    }
+
+    .hamburger-button {
+        display: block;
+    }
+
+}
+@media (max-width: 767px){
+    .aboutDesc{
+        text-align: center;
+    }
+}
+
+.d-flex{
+    text-align: center;
+}
+
 .d-flex a{
     transform: scale(1);
     transition:  transform 0.3s ease-in-out;
@@ -31,9 +63,11 @@ img{
 
 .rounded-circle{
     display: block;
-    width: 50%;
+    min-height: 60%;
+    width: auto;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 .description {
